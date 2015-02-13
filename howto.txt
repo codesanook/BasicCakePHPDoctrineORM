@@ -1,0 +1,12 @@
+http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/tutorials/getting-started.html
+
+sourc code
+https://github.com/doctrine/doctrine2-orm-tutorial
+
+command to 
+from
+vendor/bin/doctrine orm:schema-tool:create
+to
+vendor\bin\doctrine orm:schema-tool:create
+
+vendor\bin\doctrine orm:schema-tool:update --force --dump-sql
