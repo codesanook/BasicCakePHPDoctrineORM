@@ -5,8 +5,13 @@ https://github.com/doctrine/doctrine2-orm-tutorial
 
 command to 
 from
-vendor/bin/doctrine orm:schema-tool:create
+php vendor/bin/doctrine orm:schema-tool:create
 to
-vendor\bin\doctrine orm:schema-tool:create
+php vendor\bin\doctrine orm:schema-tool:create
 
-vendor\bin\doctrine orm:schema-tool:update --force --dump-sql
+php vendor\bin\doctrine orm:schema-tool:update --force --dump-sql
+
+//update database schema
+vendor\bin\doctrine orm:schema-tool:update --force
+//drop database
+vendor\bin\doctrine orm:schema-tool:drop --force
