@@ -14,6 +14,7 @@ use Doctrine\DBAL\Platforms\SQLServer2008Platform;
 
 require_once "vendor/autoload.php";
 $entityManager;
+$conn;
 try{
     // Create a simple "default" Doctrine ORM configuration for Annotations
     $isDevMode = false;

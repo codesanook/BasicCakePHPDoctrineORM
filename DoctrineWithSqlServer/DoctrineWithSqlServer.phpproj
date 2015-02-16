@@ -23,6 +23,8 @@
     <Compile Include="create_bug.php" />
     <Compile Include="create_product.php" />
     <Compile Include="create_user.php" />
+    <Compile Include="name_query.php" />
+    <Compile Include="native_query_1.php" />
     <Compile Include="dashboard.php" />
     <Compile Include="index.php" />
     <Compile Include="list_bugs.php" />
@@ -35,6 +37,7 @@
     <Compile Include="src\Bug.php" />
     <Compile Include="src\BugRepository.php" />
     <Compile Include="src\Product.php" />
+    <Compile Include="src\QueryResult.php" />
     <Compile Include="src\User.php" />
     <Compile Include="update_product.php" />
     <Compile Include="vendor\autoload.php" />
@@ -899,6 +902,7 @@
     <Content Include="composer.json" />
     <Content Include="config\xml\Bug.dcm.xml" />
     <Content Include="config\xml\Product.dcm.xml" />
+    <Content Include="config\xml\QueryResult.dcm.xml" />
     <Content Include="config\xml\User.dcm.xml" />
     <Content Include="vendor\bin\doctrine" />
     <Content Include="vendor\bin\doctrine-dbal" />
