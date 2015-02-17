@@ -1,0 +1,32 @@
+2015-02-17 09:19:08 Error: [MissingActionException] Action AppController::Config() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'Config',
+)
+Request URL: /app/Config/database.php
+Stack Trace:
+#0 D:\projects\BasicCakePHPDoctrineORM\BasicCakePHPDoctrineORM\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\projects\BasicCakePHPDoctrineORM\BasicCakePHPDoctrineORM\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 D:\projects\BasicCakePHPDoctrineORM\BasicCakePHPDoctrineORM\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 D:\projects\BasicCakePHPDoctrineORM\BasicCakePHPDoctrineORM\index.php(41): require('D:\projects\Bas...')
+#4 {main}
+2015-02-17 09:25:44 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /lib/Cake/Model/Datasource/Database/Sqlserver.php
+Stack Trace:
+#0 D:\projects\BasicCakePHPDoctrineORM\BasicCakePHPDoctrineORM\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 D:\projects\BasicCakePHPDoctrineORM\BasicCakePHPDoctrineORM\index.php(41): require('D:\projects\Bas...')
+#2 {main}
+2015-02-17 09:33:04 Error: Fatal Error (4): syntax error, unexpected '"Hello Cake PHP"' (T_CONSTANT_ENCAPSED_STRING) in [D:\projects\BasicCakePHPDoctrineORM\BasicCakePHPDoctrineORM\app\View\Home\index.ctp, line 2]
+2015-02-17 09:33:04 Error: [FatalErrorException] syntax error, unexpected '"Hello Cake PHP"' (T_CONSTANT_ENCAPSED_STRING)
+Request URL: /home
+Stack Trace:
+#0 D:\projects\BasicCakePHPDoctrineORM\BasicCakePHPDoctrineORM\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\projects\Bas...', 2)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\projects\Bas...', 2, Array)
+#2 D:\projects\BasicCakePHPDoctrineORM\BasicCakePHPDoctrineORM\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\projects\Bas...', 2, Array)
+#3 D:\projects\BasicCakePHPDoctrineORM\BasicCakePHPDoctrineORM\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
