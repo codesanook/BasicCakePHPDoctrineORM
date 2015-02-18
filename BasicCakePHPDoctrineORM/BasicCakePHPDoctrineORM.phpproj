@@ -30,8 +30,10 @@
     <Compile Include="app\Controller\AppController.php" />
     <Compile Include="app\Controller\HomeController.php" />
     <Compile Include="app\Controller\PagesController.php" />
+    <Compile Include="app\Controller\UsersController.php" />
     <Compile Include="app\index.php" />
     <Compile Include="app\Model\AppModel.php" />
+    <Compile Include="app\Model\User.php" />
     <Compile Include="app\View\Helper\AppHelper.php" />
     <Compile Include="app\webroot\index.php" />
     <Compile Include="app\webroot\test.php" />
@@ -745,6 +747,7 @@
     <Folder Include="app\View\Home\" />
     <Folder Include="app\View\Pages\" />
     <Folder Include="app\View\Scaffolds\" />
+    <Folder Include="app\View\Users\" />
     <Folder Include="app\webroot\" />
     <Folder Include="app\webroot\css\" />
     <Folder Include="app\webroot\files\" />
@@ -1166,6 +1169,13 @@
     <Content Include="app\View\Layouts\xml\default.ctp" />
     <Content Include="app\View\Pages\home.ctp" />
     <Content Include="app\View\Scaffolds\empty" />
+    <Content Include="app\View\Users\loggedInUser.ctp" />
+    <Content Include="app\View\Users\getHash.ctp" />
+    <Content Include="app\View\Users\login.ctp" />
+    <Content Include="app\View\Users\add.ctp" />
+    <Content Include="app\View\Users\edit.ctp" />
+    <Content Include="app\View\Users\index.ctp" />
+    <Content Include="app\View\Users\view.ctp" />
     <Content Include="app\webroot\.htaccess" />
     <Content Include="app\webroot\css\cake.generic.css" />
     <Content Include="app\webroot\favicon.ico" />

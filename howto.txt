@@ -15,3 +15,11 @@ php vendor\bin\doctrine orm:schema-tool:update --force --dump-sql
 vendor\bin\doctrine orm:schema-tool:update --force
 //drop database
 vendor\bin\doctrine orm:schema-tool:drop --force
+
+
+to run cake bake all work
+
+D:\projects\BasicCakePHPDoctrineORM\BasicCakePHPDoctrineORM\app>Console\cake bak
+e all
+
+need to run in app scope
