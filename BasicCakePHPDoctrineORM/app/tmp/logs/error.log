@@ -112,3 +112,25 @@ Stack Trace:
 #4 D:\projects\BasicCakePHPDoctrineORM\BasicCakePHPDoctrineORM\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 D:\projects\BasicCakePHPDoctrineORM\BasicCakePHPDoctrineORM\index.php(41): require('D:\projects\Bas...')
 #6 {main}
+2015-02-20 00:14:30 Error: [MissingActionException] Action AppController::View() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'View',
+)
+Request URL: /app/View/Layouts/default.ctp
+Stack Trace:
+#0 D:\projects\BasicCakePHPDoctrineORM\BasicCakePHPDoctrineORM\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\projects\BasicCakePHPDoctrineORM\BasicCakePHPDoctrineORM\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 D:\projects\BasicCakePHPDoctrineORM\BasicCakePHPDoctrineORM\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 D:\projects\BasicCakePHPDoctrineORM\BasicCakePHPDoctrineORM\index.php(41): require('D:\projects\Bas...')
+#4 {main}
+2015-02-20 00:21:11 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /user/login
+Stack Trace:
+#0 D:\projects\BasicCakePHPDoctrineORM\BasicCakePHPDoctrineORM\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 D:\projects\BasicCakePHPDoctrineORM\BasicCakePHPDoctrineORM\index.php(41): require('D:\projects\Bas...')
+#2 {main}
