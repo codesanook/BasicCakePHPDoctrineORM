@@ -1,0 +1,4 @@
+{* comment *}
+<h2>product {$id} </h2>
+<br />
+<h4>name {$name}</h4>
