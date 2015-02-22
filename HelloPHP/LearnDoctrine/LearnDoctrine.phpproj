@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>LearnDoctrine</Name>
+    <ProjectGuid>2ffc5c75-5aa6-49d0-997b-eacb056b672a</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>LearnDoctrine</RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>LearnDoctrine</AssemblyName>
+    <IISProjectUrl>http://localhost:15514/</IISProjectUrl>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="bootstrap.php" />
+    <Compile Include="cli-config.php" />
+    <Compile Include="create_articles.php" />
+    <Compile Include="delete_article.php" />
+    <Compile Include="update_article.php" />
+    <Compile Include="find_article.php" />
+    <Compile Include="index.php" />
+    <Compile Include="list_article.php" />
+    <Compile Include="src\Article.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="composer.json" />
+    <Content Include="config\xml\Article.dcm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="config\" />
+    <Folder Include="config\xml\" />
+    <Folder Include="src\" />
+  </ItemGroup>
+</Project>

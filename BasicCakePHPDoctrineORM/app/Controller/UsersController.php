@@ -12,9 +12,13 @@ class UsersController extends AppController {
     {
         //add auth  together
         parent::beforeFilter();
-        $this->Auth->allow('add','getHash','edit');    
+        $this->Auth->allow('add','getHash','edit','you');    
     }
 
+    public function you()
+    {
+        $this->set("msg","เพราะยูเลยยยย");    
+    }
     
     public function login()
     {

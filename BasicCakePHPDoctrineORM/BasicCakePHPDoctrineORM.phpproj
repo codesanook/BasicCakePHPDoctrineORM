@@ -1172,6 +1172,7 @@
     <Content Include="app\View\Scaffolds\empty" />
     <Content Include="app\View\Users\loggedInUser.ctp" />
     <Content Include="app\View\Users\getHash.ctp" />
+    <Content Include="app\View\Users\you.ctp" />
     <Content Include="app\View\Users\login.ctp" />
     <Content Include="app\View\Users\add.ctp" />
     <Content Include="app\View\Users\edit.ctp" />
