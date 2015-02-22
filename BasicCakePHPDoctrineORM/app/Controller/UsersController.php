@@ -12,6 +12,7 @@ class UsersController extends AppController {
     {
         //add auth  together
         parent::beforeFilter();
+<<<<<<< HEAD
         $this->Auth->allow('add','getHash','edit','you');    
     }
 
@@ -20,6 +21,16 @@ class UsersController extends AppController {
         $this->set("msg","à¾ÃÒÐÂÙàÅÂÂÂÂ");    
     }
     
+=======
+        $this->Auth->allow('add','getHash','edit','sci');    
+    }
+
+    public function sci()
+    {
+        $this->set('msg','à¹€à¸žà¸£à¸²à¸°à¸‹à¸²à¸¢à¸™à¹Œà¹€à¸¥à¸¢');
+    }
+
+>>>>>>> f7b26a61c4e80caef364d7d7e53df4ede0235e2c
     public function login()
     {
         if($this->request->is('post'))
@@ -146,4 +157,6 @@ class UsersController extends AppController {
       $hash =  AuthComponent::password($password);
         $this->set("hash",$hash);
     }
+
+    
 }
