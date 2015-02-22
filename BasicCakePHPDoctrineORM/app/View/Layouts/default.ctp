@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
     <title>Transdmin Light</title>
 
     <!-- CSS -->
@@ -54,7 +55,7 @@
                 <div id="main">
                     <!-- content body here -->
                     <?php echo $this->fetch('content'); ?>
-
+                    <?php echo 'สวัสดี'; ?>
                 </div>
                 <!-- // #main -->
 

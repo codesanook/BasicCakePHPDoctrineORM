@@ -12,10 +12,14 @@ class UsersController extends AppController {
     {
         //add auth  together
         parent::beforeFilter();
-        $this->Auth->allow('add','getHash','edit');    
+        $this->Auth->allow('add','getHash','edit','sci');    
     }
 
-    
+    public function sci()
+    {
+        $this->set('msg','เพราะซายน์เลย');
+    }
+
     public function login()
     {
         if($this->request->is('post'))
@@ -142,4 +146,6 @@ class UsersController extends AppController {
       $hash =  AuthComponent::password($password);
         $this->set("hash",$hash);
     }
+
+    
 }

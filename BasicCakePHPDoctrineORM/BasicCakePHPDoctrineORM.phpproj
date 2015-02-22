@@ -1170,6 +1170,7 @@
     <Content Include="app\View\Layouts\xml\default.ctp" />
     <Content Include="app\View\Pages\home.ctp" />
     <Content Include="app\View\Scaffolds\empty" />
+    <Content Include="app\View\Users\sci.ctp" />
     <Content Include="app\View\Users\loggedInUser.ctp" />
     <Content Include="app\View\Users\getHash.ctp" />
     <Content Include="app\View\Users\login.ctp" />
