@@ -1,0 +1,12 @@
+<?php
+require_once "bootstrap.php";
+
+$id = $argv[1];
+$article = $entityManager->find('Article', $id);
+
+if ($article == null) {
+    echo "No article found.\n";
+    exit(1);
+}
+
+echo sprintf("-%s\n", $article->getTitle());
