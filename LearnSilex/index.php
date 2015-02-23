@@ -20,6 +20,13 @@ $app->get('/', function (){
     return 'home';
 });
 
+$app->get('/home/', function () use($app,$smarty, $entityManager) {
+
+    return $smarty->fetch('home/index.tpl');
+});
+
+
+
 
 $app->get('/products', function () use($app,$smarty, $entityManager) {
 

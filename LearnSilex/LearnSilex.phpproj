@@ -1198,9 +1198,10 @@
     <Content Include="vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\YtsNullsAndEmpties.yml" />
     <Content Include="vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\YtsSpecificationExamples.yml" />
     <Content Include="vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\YtsTypeTransfers.yml" />
+    <Content Include="views\home\HTMLPage1.html" />
+    <Content Include="views\home\index.tpl" />
     <Content Include="views\product\detail.tpl" />
     <Content Include="views\product\list.tpl" />
-    <Content Include="views\home\index.tpl" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
