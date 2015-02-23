@@ -12,6 +12,8 @@ Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "GettingStartWithDoctrine", 
 EndProject
 Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "LearnSilex", "LearnSilex\LearnSilex.phpproj", "{68A84DF3-1633-42AA-AE19-6F1FAACF016E}"
 EndProject
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "LearnSlim", "LearnSlim\LearnSlim.phpproj", "{5873C8AB-5107-4E54-B73D-5D6A74CA02F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,10 @@ Global
 		{68A84DF3-1633-42AA-AE19-6F1FAACF016E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68A84DF3-1633-42AA-AE19-6F1FAACF016E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68A84DF3-1633-42AA-AE19-6F1FAACF016E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5873C8AB-5107-4E54-B73D-5D6A74CA02F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5873C8AB-5107-4E54-B73D-5D6A74CA02F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5873C8AB-5107-4E54-B73D-5D6A74CA02F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5873C8AB-5107-4E54-B73D-5D6A74CA02F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
